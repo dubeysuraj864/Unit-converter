@@ -135,11 +135,24 @@ input::-webkit-inner-spin-button {
         font-size: 16px;
         font-weight: 600;
     }
+    .container{
+        height: 100vh;
+    }
     .top{
-        height: 40%;
+        height: 60%;
     }
     .bottom{
         height: 40%;
     }
+    input{
+        width: 130px;
+        height: 130px;
+        font-size: 90px;
+    }
+    button{
+        width: 130px;
+        font-size: 20px;
+    }
+
 
   }
