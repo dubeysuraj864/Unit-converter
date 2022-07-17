@@ -11,7 +11,7 @@ const kilogram1 = 2.204; //pound
 btnEl.addEventListener("click", function () {
     meters.innerHTML = `${inputEl.value} meters = ${(inputEl.value * 3.281).toFixed(2)} feet | ${inputEl.value} feet = ${(inputEl.value / 3.281).toFixed(2)} meters`
 
-    liters.innerHTML = `${inputEl.value} volume = ${(inputEl.value *  0.264).toFixed(2)} gallons | ${inputEl.value} gallons = ${(inputEl.value / 0.264).toFixed(2)} volume`
+    liters.innerHTML = `${inputEl.value} liters = ${(inputEl.value *  0.264).toFixed(2)} gallons | ${inputEl.value} gallons = ${(inputEl.value / 0.264).toFixed(2)} liters`
 
     kilos.innerHTML = `${inputEl.value} kilos = ${(inputEl.value *  2.204).toFixed(2)} pounds | ${inputEl.value} pounds = ${(inputEl.value / 2.204).toFixed(2)} kilos`
 });
