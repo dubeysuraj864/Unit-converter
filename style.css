@@ -89,10 +89,23 @@ input::-webkit-inner-spin-button {
 
 .child-1, .child-2, .child-3{
     background-color: #fff;
-    color: rgb(38, 38, 38);
+    color: rgb(99, 99, 99);
     width: 90%;
     margin: 1em;
     padding: 0;
     padding-top: 1em;
     border-radius: .4em;
+    font-weight: 500;
 }
+.text{
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(146, 146, 146);
+    }
+    .heading{
+        font-size: 20px;
+    }
+  }
