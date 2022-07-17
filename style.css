@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Lato:wght@300;400;900&family=Poppins:wght@100;200;300;400;500&family=Potta+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+    height: 100vh;
+}
+.top{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6642f5;
+}
+div{
+    padding: 0em 1em 1em 0em;
+}
+.bottom{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: white;
+    font-size: 2em;
+}
+button{
+    width: 170px;
+    height: 70px;
+    font-size: 30px;
+    color: #6642f5;
+    font-weight: bold;
+    border-radius: .1em;
+    outline: none;
+    border: .06em solid rgba(255, 255, 255, 0.623);
+}
+input{
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    outline: none;
+    border: .06em solid rgba(255, 255, 255, 0.623);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: .1em;
+    font-size: 100px;
+    padding: 0;
+    resize: horizontal;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.754);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
