@@ -122,7 +122,7 @@ input::-webkit-inner-spin-button {
 @media only screen and (max-width: 600px) {
     body {
       background-color: rgb(243, 243, 243);
-      height: 90vh;
+      height: 80vh;
     }
     .heading{
         font-size: 40px;
@@ -134,6 +134,12 @@ input::-webkit-inner-spin-button {
     .text{
         font-size: 16px;
         font-weight: 600;
+    }
+    .top{
+        height: 40%;
+    }
+    .bottom{
+        height: 40%;
     }
 
   }
