@@ -141,9 +141,12 @@ input::-webkit-inner-spin-button {
     }
     .top{
         height: 65%;
+        position: absolute;
     }
     .bottom{
         height: 28%;
+        position: absolute;
+        top: 59vh;
     }
     input{
         width: 130px;
