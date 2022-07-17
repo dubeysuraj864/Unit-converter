@@ -136,13 +136,13 @@ input::-webkit-inner-spin-button {
         font-weight: 600;
     }
     .container{
-        height: 100vh;
+        height: 90vh;
     }
     .top{
-        height: 50%;
+        height: 65%;
     }
     .bottom{
-        height: 40%;
+        height: 28%;
     }
     input{
         width: 130px;
