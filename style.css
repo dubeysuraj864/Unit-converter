@@ -40,19 +40,22 @@ div{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(186, 186, 186, 0.623);
+    background: rgba(231, 231, 231, 0.623);
     margin: 0;
     padding: 0;
 }
 .heading{
     color: white;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-left: auto;
     width: 100%;
     padding: 0;
     margin-bottom: 1em;
+    text-shadow: 2px 2px rgb(200, 91, 240);
+    
 }
 button{
+    transition: all 100ms ease;
     width: 170px;
     height: 70px;
     font-size: 30px;
@@ -61,7 +64,13 @@ button{
     border-radius: .1em;
     outline: none;
     border: .06em solid rgba(255, 255, 255, 0.623);
-    
+    cursor: pointer; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover{
+    transition: all 300ms ease;
+    background-color: rgba(255, 255, 255, 0.889);
+    box-shadow: none;
 }
 input{
     width: 170px;
@@ -70,15 +79,17 @@ input{
     outline: none;
     border: .06em solid rgba(255, 255, 255, 0.623);
     background-color: rgba(0, 0, 0, 0);
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: .1em;
     font-size: 100px;
     padding: 0;
     resize: horizontal;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 input::placeholder{
-    color: rgba(255, 255, 255, 0.754);
+    color: rgba(255, 255, 255, 0.112);
 }
 
 input::-webkit-outer-spin-button,
@@ -88,6 +99,7 @@ input::-webkit-inner-spin-button {
 }
 
 .child-1, .child-2, .child-3{
+    transition: all 100ms ease;
     background-color: #fff;
     color: rgb(99, 99, 99);
     width: 90%;
@@ -96,6 +108,10 @@ input::-webkit-inner-spin-button {
     padding-top: 1em;
     border-radius: .4em;
     font-weight: 500;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.child-1:hover, .child-2:hover, .child-3:hover{
+    box-shadow: none;
 }
 .text{
     font-weight: 600;
@@ -103,9 +119,19 @@ input::-webkit-inner-spin-button {
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: rgb(146, 146, 146);
+      background-color: rgb(243, 243, 243);
+      height: 90vh;
     }
     .heading{
         font-size: 20px;
     }
+    .child-1, .child-2, .child-3{
+        font-size: 15px;
+    }
+   
+    .text{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
   }
